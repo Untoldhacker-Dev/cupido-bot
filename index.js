@@ -3,10 +3,10 @@ const Markup = require("telegraf/markup");
 const Stage = require("telegraf/stage");
 const session = require("telegraf/session");
 const WizardScene = require("telegraf/scenes/wizard");
-const bot = '5084479024:AAFo-_sttuAgUjFs3xFgF66Xs719diVJFQw'
+const bott = '5084479024:AAFo-_sttuAgUjFs3xFgF66Xs719diVJFQw'
 const loveCalculator = require("./api/loveCalculator");
 
-const bot = new Telegraf(process.env.bot);
+const bot = new Telegraf(process.env.bott);
 
 bot.start(ctx => {
   ctx.reply(
